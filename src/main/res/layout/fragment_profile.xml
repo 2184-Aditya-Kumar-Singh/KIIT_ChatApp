@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Email (read-only) -->
+        <TextView
+            android:id="@+id/labelEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"/>
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Role (read-only) -->
+        <TextView
+            android:id="@+id/labelRole"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Role"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvRole"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Name -->
+        <TextView
+            android:id="@+id/labelName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your name"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Branch -->
+        <TextView
+            android:id="@+id/labelBranch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Branch"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/etBranch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your branch"
+            android:inputType="text"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Year -->
+        <TextView
+            android:id="@+id/labelYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Year"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/etYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your year"
+            android:inputType="text"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Interests (Checkboxes) -->
+        <TextView
+            android:id="@+id/labelInterests"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Interests"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+        <CheckBox
+            android:id="@+id/cbML"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Machine Learning"/>
+        <CheckBox
+            android:id="@+id/cbWebDev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Web Development"/>
+        <CheckBox
+            android:id="@+id/cbAndroid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android Development"/>
+        <CheckBox
+            android:id="@+id/cbDataScience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data Science"/>
+        <CheckBox
+            android:id="@+id/cbCyberSecurity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cyber Security" />
+
+        <CheckBox
+            android:id="@+id/cbCompetitiveProgramming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Competitive Programming" />
+
+        <!-- Buttons -->
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Profile"
+            android:layout_marginTop="18dp"/>
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:background="@android:color/holo_red_light"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+</ScrollView>

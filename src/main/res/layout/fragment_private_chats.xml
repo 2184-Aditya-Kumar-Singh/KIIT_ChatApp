@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Search Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="12dp">
+        <EditText
+            android:id="@+id/etSearchEmail"
+            android:hint="Search by KIIT email"
+            android:inputType="textEmailAddress"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"/>
+    </LinearLayout>
+
+    <!-- Search Result Section -->
+    <LinearLayout
+        android:id="@+id/resultLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EEEEEE"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp">
+
+        <TextView android:id="@+id/tvName" android:text="Name:" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/black"/>
+        <TextView android:id="@+id/tvBranch" android:text="Branch:" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/black"/>
+        <TextView android:id="@+id/tvYear" android:text="Year:" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/black"/>
+        <TextView android:id="@+id/tvInterests" android:text="Interests:" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/black"/>
+        <TextView android:id="@+id/tvEmail" android:text="Email:" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/black"/>
+        <TextView android:id="@+id/tvRole" android:text="Role:" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/btnStartChat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Chat"
+            android:layout_marginTop="8dp"/>
+    </LinearLayout>
+
+    <!-- Chat List Section -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chats"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerChatList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>
