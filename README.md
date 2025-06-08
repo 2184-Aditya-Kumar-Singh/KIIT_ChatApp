@@ -23,23 +23,26 @@ The app supports group and private chats, text, image, and audio message sharing
 
 ## Screenshots
 
-![WhatsApp Image 2025-06-08 at 22 36 35_b6760f42](https://github.com/user-attachments/assets/3e207945-3589-42ef-bab4-3cd6f1b84a5a)
-![WhatsApp Image 2025-06-08 at 22 36 35_817f1126](https://github.com/us![WhatsApp Image 2025-06-08 at 22 36 39_285edd98](https://github.com/user-attachments/assets/6c55a5fc-fd8a-44a1-9cbf-46a10697fcc0)
-![WhatsApp Image 2025-06-08 at 22 36 38_e2e096b7](https://github.com/user-attachments/assets/535baaf2-2322-4984-90fa-8d843fdf0e7d)
-![WhatsApp Image 2025-06-08 at 22 36 38_29cd1698](https://github.com/user-attachments/assets/d75b0575-439c-433e-b2ff-ca224de910e0)
-![WhatsApp Image 2025-06-08 at 22 36 38_1ea270f0](https://github.com/user-attachments/assets/cbdef444-8568-473c-9443-997e0a4e24fc)
-![WhatsApp Image 2025-06-08 at 22 36 37_fc5e971d](https://github.com/user-attachments/assets/b51dcaa4-91f7-411f-8d75-f6af5ec8d5a4)
-![WhatsApp Image 2025-06-08 at 22 36 37_52137de3](https://github.com/user-attachments/assets/7ed9f444-5631-4c12-9876-7dab88d4fcc6)
-![WhatsApp Image 2025-06-08 at 22 36 36_c4bac202](https://github.com/user-attachments/assets/e20c4457-9a5a-4e05-9988-f2162c257fd2)
-![WhatsApp Image 2025-06-08 at 22 36 36_086921f4](https://github.com/user-attachments/assets/522123ba-73ea-4403-afdf-b4741a23e9eb)
-![WhatsApp Image 2025-06-08 at 22 36 36_31ed1b95](https://github.com/user-attachments/assets/c66fed55-43ee-4358-992e-76543b748872)
-![WhatsApp Image 2025-06-08 at 22 36 42_996e3f4b](https://github.com/user-attachments/assets/2e33fe7a-a809-465e-8ea3-d0c57cf2f4a7)
-![WhatsApp Image 2025-06-08 at 22 36 41_a031170a](https://github.com/user-attachments/assets/ed2d5e9e-1803-4ac2-99c6-33b1093e7497)
-![WhatsApp Image 2025-06-08 at 22 36 41_97ed8bac](https://github.com/user-attachments/assets/2fec94ab-15b9-4161-b230-0b814c325842)
-![WhatsApp Image 2025-06-08 at 22 36 40_c9eca4f5](https://github.com/user-attachments/assets/ea94f8e7-acf7-444f-af3a-2d5d5c54d6ce)
-![WhatsApp Image 2025-06-08 at 22 36 40_0c9d92c1](https://github.com/user-attachments/assets/520e40e3-c94b-4998-acbe-c8f0c6502121)
-![WhatsApp Image 2025-06-08 at 22 36 39_554d2d30](https://github.com/user-attachments/assets/d0bf70dc-4d18-4583-9160-13c075582f4d)
-er-attachments/assets/f32f3a2c-7148-4df6-bc0f-cd9cf846814d)
+<img src="https://github.com/user-attachments/assets/d67ee4a8-6117-4b5e-9ae7-d2d257837af5" width="100"/>
+<img src="https://github.com/user-attachments/assets/115e4fe1-ec00-4e5d-8c85-99fb6f263691" width="100"/>
+<img src="https://github.com/user-attachments/assets/02df5494-2e9c-43be-a3a6-f297480f0079" width="100"/>
+<img src="https://github.com/user-attachments/assets/3dc793e2-9c4f-49ab-83d5-1a396785167a" width="100"/>
+<img src="https://github.com/user-attachments/assets/5ac5984b-2d04-45e5-a6cb-bd50b496c162" width="100"/>
+<img src="https://github.com/user-attachments/assets/654b9232-5b01-44bd-bb13-a5837b23f8a8" width="100"/>
+<img src="https://github.com/user-attachments/assets/d20ccba8-c24d-4d21-a31b-69a6a31e9c53" width="100"/>
+<img src="https://github.com/user-attachments/assets/5b78dfc2-e53d-47ee-95ca-2aa07e73854d" width="100"/>
+<img src="https://github.com/user-attachments/assets/e81c8367-b8df-4cfe-815f-2bb13d9bf599" width="100"/>
+<img src="https://github.com/user-attachments/assets/368f68b5-f54a-4335-9bcf-c189756c7615" width="100"/>
+<img src="https://github.com/user-attachments/assets/aaf98443-6258-4e67-8977-6804d7ac45c5" width="100"/>
+<img src="https://github.com/user-attachments/assets/98b28bc4-c977-4485-9fd3-f55df9af9320" width="100"/>
+<img src="https://github.com/user-attachments/assets/d4abe98f-f189-4179-9496-561b6846599c" width="100"/>
+<img src="https://github.com/user-attachments/assets/d93052b4-ac72-4fad-88c5-e66bbfae7ada" width="100"/>
+<img src="https://github.com/user-attachments/assets/42192b04-c48d-491f-b514-5bd6e21ae926" width="100"/>
+<img src="https://github.com/user-attachments/assets/57525151-8c20-4d48-acbe-89c338f692d4" width="100"/>
+<img src="https://github.com/user-attachments/assets/707f7a53-a393-4d4e-b9b8-f8dedb346080" width="100"/>
+
+
+
  
 
 
