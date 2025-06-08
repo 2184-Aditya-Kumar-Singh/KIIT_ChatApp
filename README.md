@@ -23,8 +23,8 @@ The app supports group and private chats, text, image, and audio message sharing
 
 ## Screenshots
 
-<!-- ![WhatsApp Image 2025-06-08 at 22 36 35_b6760f42](https://github.com/user-attachments/assets/3e207945-3589-42ef-bab4-3cd6f1b84a5a)
-Add screenshots![WhatsApp Image 2025-06-08 at 22 36 35_817f1126](https://github.com/us![WhatsApp Image 2025-06-08 at 22 36 39_285edd98](https://github.com/user-attachments/assets/6c55a5fc-fd8a-44a1-9cbf-46a10697fcc0)
+![WhatsApp Image 2025-06-08 at 22 36 35_b6760f42](https://github.com/user-attachments/assets/3e207945-3589-42ef-bab4-3cd6f1b84a5a)
+![WhatsApp Image 2025-06-08 at 22 36 35_817f1126](https://github.com/us![WhatsApp Image 2025-06-08 at 22 36 39_285edd98](https://github.com/user-attachments/assets/6c55a5fc-fd8a-44a1-9cbf-46a10697fcc0)
 ![WhatsApp Image 2025-06-08 at 22 36 38_e2e096b7](https://github.com/user-attachments/assets/535baaf2-2322-4984-90fa-8d843fdf0e7d)
 ![WhatsApp Image 2025-06-08 at 22 36 38_29cd1698](https://github.com/user-attachments/assets/d75b0575-439c-433e-b2ff-ca224de910e0)
 ![WhatsApp Image 2025-06-08 at 22 36 38_1ea270f0](https://github.com/user-attachments/assets/cbdef444-8568-473c-9443-997e0a4e24fc)
@@ -40,7 +40,7 @@ Add screenshots![WhatsApp Image 2025-06-08 at 22 36 35_817f1126](https://github.
 ![WhatsApp Image 2025-06-08 at 22 36 40_0c9d92c1](https://github.com/user-attachments/assets/520e40e3-c94b-4998-acbe-c8f0c6502121)
 ![WhatsApp Image 2025-06-08 at 22 36 39_554d2d30](https://github.com/user-attachments/assets/d0bf70dc-4d18-4583-9160-13c075582f4d)
 er-attachments/assets/f32f3a2c-7148-4df6-bc0f-cd9cf846814d)
- here of group chat, private chat, roll number display, etc. -->
+ 
 
 
 ---
