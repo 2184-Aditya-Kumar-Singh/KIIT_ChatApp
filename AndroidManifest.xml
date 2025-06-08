@@ -1,0 +1,52 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kiit_chatapp">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_a"
+        android:label="KIIT ChatApp"
+        android:roundIcon="@mipmap/logo_c"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KiitChatApp">
+
+        <!-- Firebase Messaging Service -->
+        <service
+            android:name=".services.FCMService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <!-- Splash Activity as Launcher -->
+        <activity
+            android:name=".activities.SplashActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Other Activities -->
+        <activity android:name=".activities.CreateGroupActivity" />
+        <activity android:name=".activities.PrivateChatActivity" />
+        <activity android:name=".activities.GroupChatActivity" />
+        <activity android:name=".activities.ProfileSetupActivity" />
+        <activity android:name=".activities.RegisterActivity" />
+        <activity android:name=".activities.MainActivity" />
+        <activity android:name=".activities.ManageGroupsActivity" android:exported="true"/>
+        <activity android:name=".activities.LoginActivity" android:exported="true" />
+
+    </application>
+
+</manifest>

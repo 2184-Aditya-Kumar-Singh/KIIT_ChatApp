@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="4dp"
+    android:gravity="center"
+    app:cardBackgroundColor="@android:color/transparent"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_line">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/txtGroupName"
+                android:text="Group Name"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/green"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <!-- Unread dot -->
+            <View
+                android:id="@+id/unreadDot"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/circle_red"
+                android:visibility="visible"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/groupTopicText"
+            android:text="Do not use any vulgar words"
+            android:textStyle="bold|italic"
+            android:textColor="@color/green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/joinButton"
+            android:text="Join"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnDeleteGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:backgroundTint="@color/green"
+            android:visibility="gone"
+            />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
