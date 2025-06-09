@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    android:background="@drawable/splash_gradient">
+    <TextView
+        android:id="@+id/groupNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="16dp"
+        android:text="Group Name" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chatRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="12dp"
+        android:background="@drawable/border_line"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <ImageButton
+            android:id="@+id/sendImageButton"
+            android:src="@drawable/image_24"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@color/green"
+            android:enabled="false" />
+
+        <ImageButton
+            android:id="@+id/recordAudioButton"
+            android:src="@drawable/mic_24"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@color/green"
+            android:layout_marginStart="8dp"
+            android:enabled="false" />
+
+        <EditText
+            android:id="@+id/messageEditText"
+            android:hint="Type a message"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColorHint="@color/green"
+            android:textColor="@color/green"
+            android:textStyle="bold"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
+
+        <ImageButton
+            android:id="@+id/sendButton"
+            android:src="@drawable/send_24"
+            android:background="@color/green"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+    </LinearLayout>
+</LinearLayout>
