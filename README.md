@@ -22,28 +22,19 @@ The app supports group and private chats, text, image, and audio message sharing
 ---
 
 ## Screenshots
-
-<img src="https://github.com/user-attachments/assets/d67ee4a8-6117-4b5e-9ae7-d2d257837af5" width="100"/>
-<img src="https://github.com/user-attachments/assets/115e4fe1-ec00-4e5d-8c85-99fb6f263691" width="100"/>
-<img src="https://github.com/user-attachments/assets/02df5494-2e9c-43be-a3a6-f297480f0079" width="100"/>
-<img src="https://github.com/user-attachments/assets/3dc793e2-9c4f-49ab-83d5-1a396785167a" width="100"/>
-<img src="https://github.com/user-attachments/assets/5ac5984b-2d04-45e5-a6cb-bd50b496c162" width="100"/>
-<img src="https://github.com/user-attachments/assets/654b9232-5b01-44bd-bb13-a5837b23f8a8" width="100"/>
-<img src="https://github.com/user-attachments/assets/d20ccba8-c24d-4d21-a31b-69a6a31e9c53" width="100"/>
-<img src="https://github.com/user-attachments/assets/5b78dfc2-e53d-47ee-95ca-2aa07e73854d" width="100"/>
-<img src="https://github.com/user-attachments/assets/e81c8367-b8df-4cfe-815f-2bb13d9bf599" width="100"/>
-<img src="https://github.com/user-attachments/assets/368f68b5-f54a-4335-9bcf-c189756c7615" width="100"/>
-<img src="https://github.com/user-attachments/assets/aaf98443-6258-4e67-8977-6804d7ac45c5" width="100"/>
-<img src="https://github.com/user-attachments/assets/98b28bc4-c977-4485-9fd3-f55df9af9320" width="100"/>
-<img src="https://github.com/user-attachments/assets/d4abe98f-f189-4179-9496-561b6846599c" width="100"/>
-<img src="https://github.com/user-attachments/assets/d93052b4-ac72-4fad-88c5-e66bbfae7ada" width="100"/>
-<img src="https://github.com/user-attachments/assets/42192b04-c48d-491f-b514-5bd6e21ae926" width="100"/>
-<img src="https://github.com/user-attachments/assets/57525151-8c20-4d48-acbe-89c338f692d4" width="100"/>
-<img src="https://github.com/user-attachments/assets/707f7a53-a393-4d4e-b9b8-f8dedb346080" width="100"/>
-
-
-
- 
+<img src="https://github.com/user-attachments/assets/d026c3ce-0f81-45bf-93bb-2d3736711bc9" width="100"/>
+<img src="https://github.com/user-attachments/assets/0cd3e457-bf33-4191-a05a-ab639483881d" width="100"/>
+<img src="https://github.com/user-attachments/assets/763c00e8-8392-455d-9cfe-f8d3831551c3" width="100"/>
+<img src="https://github.com/user-attachments/assets/1aef1176-919a-4362-9185-4f0d0b84e91a" width="100"/>
+<img src="https://github.com/user-attachments/assets/9694cfa1-fb99-4af8-91ab-7757c25dc429" width="100"/>
+<img src="https://github.com/user-attachments/assets/78efe58d-2270-42ac-bf2e-8b41a1e41277" width="100"/>
+<img src="https://github.com/user-attachments/assets/ec03fe01-6148-4c5b-8c6f-fb83f9bd24c7" width="100"/>
+<img src="https://github.com/user-attachments/assets/81a70b23-01fb-4205-b01a-a75e254a22cb" width="100"/>
+<img src="https://github.com/user-attachments/assets/3be9411a-abc9-4036-be0d-2f1fe600bf24" width="100"/>
+<img src="https://github.com/user-attachments/assets/78c218c8-f796-45b0-af2a-d4608af33235" width="100"/>
+<img src="https://github.com/user-attachments/assets/46027eaf-dc74-4c85-bb56-7de6af4b837a" width="100"/>
+<img src="https://github.com/user-attachments/assets/e3d53e76-0d8a-4f1d-8965-00c4a0cdaab2" width="100"/>
+<img src="https://github.com/user-attachments/assets/85ca6a9f-1f5f-4322-965d-c866f7b82584" width="100"/>
 
 
 ---
