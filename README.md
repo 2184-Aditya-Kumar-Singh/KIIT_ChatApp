@@ -129,11 +129,11 @@ cd kiit_chatapp
 
 ## Guide to run app
 
-1.Only accessible for Kiitian, i.e Kiit Email
-2.Image and Voice sending feature is yet to be released
-3.To chat privately with someone, search there KIIT email id in private chat section
-4.Groups will be visible to you based on your selected interests, which can be updated later in my profile section
-5.Contact 22052184@kiit.ac.in for any assistance or complaints regarding this application
+1.Only accessible for Kiitian, i.e Kiit Email.
+2.Image and Voice sending feature is yet to be released.
+3.To chat privately with someone, search there KIIT email id in private chat section.
+4.Groups will be visible to you based on your selected interests, which can be updated later in my profile section.
+5.Contact 22052184@kiit.ac.in for any assistance or complaints regarding this application.
 
 ---
 
