@@ -71,7 +71,7 @@ cd kiit_chatapp
 - **Realtime Database:**  
   - Create a Realtime Database and set [appropriate rules](#security-rules).
 - **Storage:**  
-  - (Optional, for images/audio) Enable Firebase Storage and configure rules.
+  - For Image and Audio, use Cloudinary
 
 ### 3. **Add `google-services.json`**
 
@@ -121,7 +121,7 @@ cd kiit_chatapp
 ## Guide to run app
 
 1. Only accessible for Kiitian, i.e Kiit Email.
-2. Image and Voice sending feature is yet to be released.
+2. After verifying through email, come back to same page and click register then setup your profile.
 3. To chat privately with someone, search there KIIT email id in private chat section.
 4. Groups will be visible to you based on your selected interests, which can be updated later in my profile section.
 5. Contact 22052184@kiit.ac.in for any assistance or complaints regarding this application.
@@ -136,3 +136,4 @@ cd kiit_chatapp
 ## Credits
 
 - [Firebase](https://firebase.google.com/) (Realtime Database, Auth, Storage)
+- [Cloudinary](https://cloudinary.com/) (Real time Image and Audio Storage)
