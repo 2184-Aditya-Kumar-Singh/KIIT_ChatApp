@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#CCC480"/> <!-- Light yellow for tagged highlight -->
+    <corners android:radius="12dp" />
+</shape>
