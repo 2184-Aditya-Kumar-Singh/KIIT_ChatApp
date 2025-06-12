@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Email (read-only) -->
+        <TextView
+            android:id="@+id/labelEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textColor="@color/green"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"/>
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:padding="10dp"
+            android:textColor="@color/green"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Role (read-only) -->
+        <TextView
+            android:id="@+id/labelRole"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Role"
+            android:textColor="@color/green"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvRole"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:padding="10dp"
+            android:textColor="@color/green"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Name -->
+        <TextView
+            android:id="@+id/labelName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="@color/green"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your name"
+            android:textColor="@color/green"
+            android:textColorHint="@color/green"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Branch -->
+        <TextView
+            android:id="@+id/labelBranch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Branch"
+            android:textColor="@color/green"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/etBranch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your branch"
+            android:textColor="@color/green"
+            android:textColorHint="@color/green"
+            android:inputType="text"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Year -->
+        <TextView
+            android:id="@+id/labelYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Year"
+            android:textColor="@color/green"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/etYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your year"
+            android:inputType="text"
+            android:textColor="@color/green"
+            android:textColorHint="@color/green"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Interests (Checkboxes) -->
+        <TextView
+            android:id="@+id/labelInterests"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Interests (Scroll to see more)"
+            android:textStyle="bold"
+            android:textColor="@color/green"
+            android:layout_marginBottom="8dp"/>
+        <!-- ... other views ... -->
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvInterests"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:nestedScrollingEnabled="true"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/border_line"/>
+
+        <!-- ... buttons ... -->
+        <!-- Buttons -->
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Profile"
+            android:backgroundTint="@color/green"
+            android:layout_marginTop="18dp"/>
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:backgroundTint="@color/green"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+</ScrollView>

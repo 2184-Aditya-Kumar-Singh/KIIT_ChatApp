@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@drawable/splash_gradient">
+
+    <!-- Logo at the center above email -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/logo_a"
+        android:contentDescription="App Logo"
+        android:layout_marginBottom="90dp"
+        android:background="@drawable/rect_logo"
+        android:elevation="12dp"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:hint="Email"
+        android:textColor="@color/green"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/green"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Password field with view/hide (right) and reset button (far right) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        android:gravity="center_vertical">
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@color/green"
+            android:textColorHint="@color/green"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/viewPasswordButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/visible_on"
+            android:scaleType="centerInside"
+            android:contentDescription="View Password"
+            android:padding="2dp"/>
+
+        <ImageButton
+            android:id="@+id/resetPasswordButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/lock"
+            android:layout_marginLeft="10dp"
+            android:scaleType="centerInside"
+            android:contentDescription="Reset Password"
+            android:padding="2dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/green"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:text="Register"
+        android:layout_width="match_parent"
+        android:backgroundTint="#012205"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="120dp"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_gradient">
+
+    <Button
+        android:id="@+id/btnAddGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Group"
+        android:backgroundTint="@color/green"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnManageMember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Users"
+        android:backgroundTint="@color/green"
+        android:layout_marginBottom="16dp"/>
+    <!-- Add this below btnManageMember -->
+    <LinearLayout
+        android:id="@+id/layoutAddMember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:padding="5dp"
+        android:background="@drawable/border_line"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="12dp">
+
+        <EditText
+            android:id="@+id/etAddMemberEmail"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:hint="Enter email to add"
+            android:inputType="textEmailAddress"
+            android:background="@android:color/transparent"
+            android:padding="8dp"
+            android:textColor="@color/green"
+            android:textColorHint="@color/green"
+            android:textSize="15sp"
+            android:singleLine="true"/>
+
+        <Button
+            android:id="@+id/btnAddMember"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Add Member"
+            android:backgroundTint="@color/green"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+    <!-- Improved Search Bar UI -->
+    <LinearLayout
+        android:id="@+id/searchBarContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/border_line"
+        android:visibility="gone"
+        android:padding="4dp"
+        android:layout_marginBottom="12dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@android:drawable/ic_menu_search"
+            app:tint="@color/green"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="6dp" />
+
+        <EditText
+            android:id="@+id/etSearchUser"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:hint="Search users by name or email"
+            android:textColorHint="@color/green"
+            android:background="@android:color/transparent"
+            android:paddingStart="0dp"
+            android:paddingEnd="0dp"
+            android:textColor="@color/green"
+            android:textSize="15sp"
+            android:inputType="text"
+            android:singleLine="true"/>
+    </LinearLayout>
+
+    <!-- Group List Title -->
+    <TextView
+        android:id="@+id/groupListTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Group List"
+        android:textStyle="bold"
+        android:textColor="@color/green"
+        android:textSize="16sp"
+        android:visibility="visible"/>
+
+    <!-- Group List RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvGroups"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="50dp"
+        android:visibility="visible"/>
+
+    <!-- User List Title -->
+    <TextView
+        android:id="@+id/tvUsersLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User List"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:layout_marginTop="20dp"/>
+
+    <!-- User List RecyclerView fills all remaining space when visible -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvUsers"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>
