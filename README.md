@@ -21,20 +21,7 @@ The app supports group and private chats, text, image, and audio message sharing
 
 ---
 
-## Screenshots
-<img src="https://github.com/user-attachments/assets/d026c3ce-0f81-45bf-93bb-2d3736711bc9" width="100"/>
-<img src="https://github.com/user-attachments/assets/0cd3e457-bf33-4191-a05a-ab639483881d" width="100"/>
-<img src="https://github.com/user-attachments/assets/763c00e8-8392-455d-9cfe-f8d3831551c3" width="100"/>
-<img src="https://github.com/user-attachments/assets/1aef1176-919a-4362-9185-4f0d0b84e91a" width="100"/>
-<img src="https://github.com/user-attachments/assets/9694cfa1-fb99-4af8-91ab-7757c25dc429" width="100"/>
-<img src="https://github.com/user-attachments/assets/78efe58d-2270-42ac-bf2e-8b41a1e41277" width="100"/>
-<img src="https://github.com/user-attachments/assets/ec03fe01-6148-4c5b-8c6f-fb83f9bd24c7" width="100"/>
-<img src="https://github.com/user-attachments/assets/81a70b23-01fb-4205-b01a-a75e254a22cb" width="100"/>
-<img src="https://github.com/user-attachments/assets/3be9411a-abc9-4036-be0d-2f1fe600bf24" width="100"/>
-<img src="https://github.com/user-attachments/assets/78c218c8-f796-45b0-af2a-d4608af33235" width="100"/>
-<img src="https://github.com/user-attachments/assets/46027eaf-dc74-4c85-bb56-7de6af4b837a" width="100"/>
-<img src="https://github.com/user-attachments/assets/e3d53e76-0d8a-4f1d-8965-00c4a0cdaab2" width="100"/>
-<img src="https://github.com/user-attachments/assets/85ca6a9f-1f5f-4322-965d-c866f7b82584" width="100"/>
+
 
 
 ---
