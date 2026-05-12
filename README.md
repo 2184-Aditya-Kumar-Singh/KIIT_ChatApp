@@ -115,10 +115,6 @@ cd kiit_chatapp
 
 ---
 
-## Pre-Release
-[Click To Download the App](https://github.com/2184-Aditya-Kumar-Singh/KIIT_ChatApp/releases/download/v1.1/KIIT.ChatApp.apk)
-
----
 
 ## Credits
 
